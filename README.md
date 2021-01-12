@@ -46,7 +46,7 @@ Batter goes to second, first goes home (1 point).
 </li>
 </ul>
 
-After one of the above valid events (valid for the explicit example aforementioned), another game state emerges. In other words, these games states are emergent in the game of Baseball.
+After one of the above valid events (valid for the explicit example aforementioned) occurs, another game state emerges. In other words, these games states are emergent in the game of Baseball.
 
 The question then is to figure out which game state is the most common. One way to answer this question is by using Monte Carlo simulations. My client gave me a list of all the game states labeled with a number from 1-25 (where state 1 is 0 outs and empty bases and state 25 is 3 outs without regard to the bases). Included in this list was all the possible game states one could travel to from the given game state. For example, all the possible accessible game states from state 1 are 2 (batter goes to first), 9 (strike out), 3 (batter goes to second), and 1 again. (You might've noticed that there is no way to access the "batter goes to third" game state. That's correct. Again, this is what the client provided to me.)
 
