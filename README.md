@@ -2,7 +2,7 @@
 
 I was approached one day by a client who requested a particular Baseball simulation. The objective was to acquire a distribution of "game states" via Monte Carlo-ish simulation with N number of runs.
 
-It turns out that there are particular "game states" in Baseball. An example of a "game state" is having one player on first base and nobody on second or third (kudos for making "Who's On First" jokes as you read this). There are a finite number of game states that can emerge after the pitcher throws the ball (<b>IMPORTANT</b>: this does <i>NOT</i> include stealing bases or pitching balls yet). I'll enumerate the possibilities explicitly below:
+It turns out that there are particular "game states" in Baseball. An example of a "game state" is having one player on first base and nobody on second or third with two outs total (kudos for making "Who's On First" jokes as you read this). There are a finite number of game states that can emerge after the pitcher throws the ball (<b>IMPORTANT</b>: this does <i>NOT</i> include stealing bases or pitching balls yet). I'll enumerate the possibilities explicitly below:
 
 <ul>
 <li>
