@@ -2,8 +2,9 @@
 
 I was approached one day by a client who requested a particular Baseball simulation. The objective was to acquire a distribution of "game states" via Monte Carlo-ish simulation with N number of runs.
 
-It turns out that particular "game states" of Baseball exist. An example of this "game state" is having one player on first base and nobody on second or third (kudos for making "Who's On First" jokes as you read this). There are a finite number of game states that can emerge after the pitcher throws the ball (IMPORTANT: this does NOT include stealing bases... yet). I'll enumerate them explicitly below:
+It turns out that particular "game states" of Baseball exist. An example of this "game state" is having one player on first base and nobody on second or third (kudos for making "Who's On First" jokes as you read this). There are a finite number of game states that can emerge after the pitcher throws the ball (<b>IMPORTANT</b>: this does <i>NOT</i> include stealing bases... yet). I'll enumerate them explicitly below:
 
+<ul>
 <li>
 <a id = "1">1.</a>
 Batter gets a strike.
@@ -43,6 +44,7 @@ Batter goes to first, first goes home (1 point).
 <a id = "8">8.</a>
 Batter goes to second, first goes home (1 point).
 </li>
+</ul>
 
 After one of the above valid events (valid for the explicit example aforementioned), another game state emerges. In other words, these games states are emergent in the game of Baseball.
 
