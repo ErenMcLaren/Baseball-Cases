@@ -1,4 +1,4 @@
-# Baseball-Cases
+# Baseball_Cases
 
 I was approached one day by a client who requested a particular Baseball simulation. The objective was to acquire a distribution of "game states" via Monte Carlo-ish simulation with N number of runs.
 
